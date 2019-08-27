@@ -1,5 +1,5 @@
 var myNodelist = document.getElementsByTagName("LI");
-var i;
+var i,j;
 for (i = 0; i < myNodelist.length; i++) {
     var span = document.createElement("SPAN");
     var txt = document.createTextNode("\u00D7");
